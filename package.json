@@ -1,0 +1,9 @@
+{
+  "name": "halal-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
